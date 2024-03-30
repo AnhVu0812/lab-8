@@ -3,7 +3,7 @@ var doPrime = document.getElementById("songuyen")
 const prime = function(n) {
     var n = doPrime.value;
     if (n < 2){
-        document.write(n," ko la so nt")
+        flag = false;
     }
     else {
         var flag = true;
@@ -22,7 +22,7 @@ const prime = function(n) {
         document.getElementById("result").innerHTML = `${n} is prime <br/>`;
     }
     else {
-        document.getElementById("result").innerHTML = `${n} is not prime`;
+        document.getElementById("result").innerHTML = `${n} is not prime <br/>`;
     }
 }
 
