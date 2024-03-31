@@ -37,6 +37,12 @@ body {
     padding: 3px;
     border-radius: 3px;
     background: transparent;
+    color: white;
+}
+
+.container ::placeholder {
+    color: white;
+    padding-left: 4px;
 }
 
 .container button {
@@ -45,6 +51,7 @@ body {
     border: 1px solid white;
     padding: 2px 5px;
     background: transparent;
+    color: white;
 }
 
 .container #result {
