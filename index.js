@@ -2,11 +2,11 @@ var doPrime = document.getElementById("songuyen")
 
 const prime = function(n) {
     var n = doPrime.value;
-    if (n < 2){
+    var flag = true;
+    if (n < 2) {
         flag = false;
     }
     else {
-        var flag = true;
         for (let i = 2; i <= Math.sqrt(n); i++){
             if (n % 2 == 0){
                 flag = false;
