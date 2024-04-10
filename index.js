@@ -6,6 +6,7 @@ const prime = function(n) {
     if (n < 2) {
         flag = false;
     }
+
     else {
         for (let i = 2; i <= Math.sqrt(n); i++){
             if (n % 2 == 0){
